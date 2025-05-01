@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Websites In Brisbane | Custom Web Development</title>
+    <meta name="description" content="Professional custom website development in Brisbane. Easy to use, responsive design, and fast loading websites for your business.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+    <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4" x-data="{ isOpen: false }">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Brisbane Web</a>
+                
+                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
+                    </svg>
+                </button>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
+                </div>
+            </div>
+
+            <div x-show="isOpen" class="md:hidden mt-4 space-y-4">
+                <a href="#features" class="block hover:text-blue-400 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                <a href="#faq" class="block hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block hover:text-blue-400 transition-colors duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="relative pt-32 pb-24 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-transparent"></div>
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Best Websites In Brisbane</h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-10">Custom Websites For Your Business</p>
+                    <a href="https://sigmaseo.io" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">Get Started Today</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <svg class="w-12 h-12 text-blue-500 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
+                        <p class="text-gray-400">Intuitive interface designed for seamless user experience.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <svg class="w-12 h-12 text-blue-500 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-4">Responsive Design</h3>
+                        <p class="text-gray-400">Perfect display on all devices and screen sizes.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
+                        <svg class="w-12 h-12 text-blue-500 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        <h3 class="text-xl font-semibold mb-4">Fast Loading</h3>
+                        <p class="text-gray-400">Optimized performance for lightning-fast page loads.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Benefits</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
+                        <h3 class="text-xl font-semibold mb-4">Save Time</h3>
+                        <p class="text-gray-400">Streamlined processes that save you valuable time.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
+                        <h3 class="text-xl font-semibold mb-4">Increase Conversions</h3>
+                        <p class="text-gray-400">Optimized for maximum conversion rates.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
+                        <h3 class="text-xl font-semibold mb-4">Professional Look</h3>
+                        <p class="text-gray-400">Premium design that elevates your brand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-6" x-data="{selected:null}">
+                    <div class="bg-gray-800 rounded-lg">
+                        <button @click="selected !== 1 ? selected = 1 : selected = null" class="flex justify-between items-center w-full p-6">
+                            <span class="font-semibold">How long does it take to build a website?</span>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div x-show="selected === 1" class="p-6 pt-0">
+                            <p class="text-gray-400">Typically 2-4 weeks depending on the complexity and requirements of your project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 bg-gradient-to-b from-gray-900 to-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
+                <p class="text-xl text-gray-400 mb-10">Contact us today to discuss your project</p>
+                <div class="flex flex-col items-center justify-center space-y-4">
+                    <a href="mailto:contact@example.com" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">contact@example.com</a>
+                    <a href="https://sigmaseo.io" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">Get Your Website Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Brisbane Web</h3>
+                    <p class="text-gray-400">Custom websites for your business success.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <a href="mailto:contact@example.com" class="text-gray-400 hover:text-white transition-colors duration-300">contact@example.com</a>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 Brisbane Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
